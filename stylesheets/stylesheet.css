@@ -455,6 +455,12 @@ header {
   border-bottom: solid 1px #275da1;
 }
 
+header img.logo{
+    alignment: ;
+    height: 200px;
+    width: 200px;
+}
+
 header h1 {
   width: 540px;
   margin-top: 0;
