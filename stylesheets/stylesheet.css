@@ -37,7 +37,7 @@ figcaption,
 figure,
 footer,
 header,
-hgroup,
+/*hgroup,*/
 main,
 menu,
 nav,
@@ -456,7 +456,7 @@ header {
 }
 
 header img.logo{
-    alignment: ;
+    /*alignment: ;*/
     height: 200px;
     width: 200px;
 }
@@ -765,7 +765,7 @@ footer {
   margin-top: 40px;
   font-size: 13px;
   color: #aaa;
-  background: transparent url('../images/hr.png') 0 0 no-repeat;
+  /*background: transparent url('../images/hr.png') 0 0 no-repeat;*/
 }
 
 footer a {
