@@ -770,6 +770,19 @@ ul.container li {
 
 }
 
+img.avatar {
+  float: left;
+  margin-right: 35px;
+  height: 150px;
+  width: 150px;
+  border-color: transparent;
+  border-radius: 75px;
+}
+
+div.header-content{
+  display: inline-block;
+}
+
 
 dl dd {
   font-style: italic;
