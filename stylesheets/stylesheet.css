@@ -88,6 +88,9 @@ template {
 
 a {
     background-color: transparent;
+}
+
+section#main-content a{
     white-space: pre-wrap;      /* CSS3 */
     white-space: -moz-pre-wrap; /* Firefox */
     white-space: pre-wrap;     /* Opera <7 */
@@ -907,6 +910,10 @@ footer a:hover {
     header div.header-content{
         width: 70%;
     }
+
+    #content-wrapper{
+        padding-top: 15px;
+    }
     header a.button small {
         display: inline;
         font-size: 13px;
@@ -915,15 +922,38 @@ footer a:hover {
     aside#sidebar {
         float: none;
         width: 100% ! important;
+        clear: both;
     }
     aside#sidebar {
-        min-height: 0;
-        padding: 20px 0;
-        margin-top: 20px;
         background-image: none;
-        border-top: solid 1px #ddd;
+        min-height: 0;
+        margin: 0;
+        padding: 0;
     }
+    aside#sidebar a.button:before{
+        content: "{";
+        color: #2e7bcf;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
     aside#sidebar a.button {
+        text-align: center;
+        margin-left: auto ;
+        margin-right: auto ;
+        width: 25%;
+        height: auto;
+        display: block;
+        background: none;
+        color: #000;
+        margin-bottom: 5px;
+        padding: 0;
+        float: left;
+    }
+    p.repo-owner{
+        display: none;
+    }
+    aside#sidebar a.button small{
         display: none;
     }
     #main-content h1:before,
@@ -943,6 +973,9 @@ footer a:hover {
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
+    aside#sidebar a.button {
+        width: 50%;
+    }
     img.avatar{
         display: block;
         position: relative;
