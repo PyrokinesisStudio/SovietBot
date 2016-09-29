@@ -448,6 +448,8 @@ a:hover {
 }
 
 header {
+
+    overflow: auto;
     padding-top: 40px;
     padding-bottom: 40px;
     font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
@@ -771,10 +773,9 @@ ul.container li {
 }
 
 img.avatar {
-    display: inline;
+    display: inline-block;
     float: left;
     margin-right: 35px;
-    margin-bottom: 35px;
     height: 150px;
     width: 150px;
     border-color: transparent;
