@@ -34,7 +34,6 @@ blockquote, q {
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
   content: none;
 }
 table {
@@ -185,12 +184,14 @@ blockquote {
   border-left: 10px solid #e9e9e9;
 }
 
+/*noinspection ALL*/
 ul li {
   padding-left: 20px;
   list-style-position: inside;
   list-style: disc;
 }
 
+/*noinspection ALL*/
 ol li {
   padding-left: 3px;
   list-style-position: inside;
